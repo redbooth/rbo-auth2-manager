@@ -7,6 +7,26 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		6A1EFE0A1B8E24D700D08E67 /* RBOAuth2Manager-OSX2.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A1EFE091B8E24D700D08E67 /* RBOAuth2Manager-OSX2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1EFE0F1B8E253D00D08E67 /* AFHTTPRequestSerializer+OAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BD21B8E051B00BD3053 /* AFHTTPRequestSerializer+OAuth2.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1EFE101B8E253D00D08E67 /* AFHTTPRequestSerializer+OAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BD31B8E051B00BD3053 /* AFHTTPRequestSerializer+OAuth2.m */; settings = {ASSET_TAGS = (); }; };
+		6A1EFE111B8E253D00D08E67 /* AFOAuth2Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BD41B8E051B00BD3053 /* AFOAuth2Manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1EFE121B8E253D00D08E67 /* AFOAuth2Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BD51B8E051B00BD3053 /* AFOAuth2Manager.m */; settings = {ASSET_TAGS = (); }; };
+		6A1EFE131B8E254000D08E67 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BC01B8E051B00BD3053 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1EFE141B8E254000D08E67 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BC11B8E051B00BD3053 /* AFHTTPRequestOperation.m */; settings = {ASSET_TAGS = (); }; };
+		6A1EFE151B8E254000D08E67 /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BC21B8E051B00BD3053 /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1EFE161B8E254000D08E67 /* AFHTTPRequestOperationManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BC31B8E051B00BD3053 /* AFHTTPRequestOperationManager.m */; settings = {ASSET_TAGS = (); }; };
+		6A1EFE171B8E254000D08E67 /* AFNetworkReachabilityManager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BC41B8E051B00BD3053 /* AFNetworkReachabilityManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1EFE181B8E254000D08E67 /* AFNetworkReachabilityManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BC51B8E051B00BD3053 /* AFNetworkReachabilityManager.m */; settings = {ASSET_TAGS = (); }; };
+		6A1EFE191B8E254000D08E67 /* AFSecurityPolicy.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BC61B8E051B00BD3053 /* AFSecurityPolicy.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1EFE1A1B8E254000D08E67 /* AFSecurityPolicy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BC71B8E051B00BD3053 /* AFSecurityPolicy.m */; settings = {ASSET_TAGS = (); }; };
+		6A1EFE1B1B8E254000D08E67 /* AFURLConnectionOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BC81B8E051B00BD3053 /* AFURLConnectionOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1EFE1C1B8E254000D08E67 /* AFURLConnectionOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BC91B8E051B00BD3053 /* AFURLConnectionOperation.m */; settings = {ASSET_TAGS = (); }; };
+		6A1EFE1D1B8E254000D08E67 /* AFURLRequestSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BCA1B8E051B00BD3053 /* AFURLRequestSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1EFE1E1B8E254000D08E67 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BCB1B8E051B00BD3053 /* AFURLRequestSerialization.m */; settings = {ASSET_TAGS = (); }; };
+		6A1EFE1F1B8E254000D08E67 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BCC1B8E051B00BD3053 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A1EFE201B8E254000D08E67 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BCD1B8E051B00BD3053 /* AFURLResponseSerialization.m */; settings = {ASSET_TAGS = (); }; };
+		6A1EFE211B8E254500D08E67 /* RBOAuth2Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BB61B8E04F900BD3053 /* RBOAuth2Manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6ACA8BB71B8E04F900BD3053 /* RBOAuth2Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BB61B8E04F900BD3053 /* RBOAuth2Manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6ACA8BD81B8E051B00BD3053 /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BC01B8E051B00BD3053 /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6ACA8BD91B8E051B00BD3053 /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BC11B8E051B00BD3053 /* AFHTTPRequestOperation.m */; settings = {ASSET_TAGS = (); }; };
@@ -22,17 +42,18 @@
 		6ACA8BE31B8E051B00BD3053 /* AFURLRequestSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BCB1B8E051B00BD3053 /* AFURLRequestSerialization.m */; settings = {ASSET_TAGS = (); }; };
 		6ACA8BE41B8E051B00BD3053 /* AFURLResponseSerialization.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BCC1B8E051B00BD3053 /* AFURLResponseSerialization.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6ACA8BE51B8E051B00BD3053 /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BCD1B8E051B00BD3053 /* AFURLResponseSerialization.m */; settings = {ASSET_TAGS = (); }; };
-		6ACA8BE61B8E051B00BD3053 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6ACA8BCE1B8E051B00BD3053 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
-		6ACA8BE71B8E051B00BD3053 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BCF1B8E051B00BD3053 /* README.md */; settings = {ASSET_TAGS = (); }; };
 		6ACA8BE81B8E051B00BD3053 /* AFHTTPRequestSerializer+OAuth2.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BD21B8E051B00BD3053 /* AFHTTPRequestSerializer+OAuth2.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6ACA8BE91B8E051B00BD3053 /* AFHTTPRequestSerializer+OAuth2.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BD31B8E051B00BD3053 /* AFHTTPRequestSerializer+OAuth2.m */; settings = {ASSET_TAGS = (); }; };
 		6ACA8BEA1B8E051B00BD3053 /* AFOAuth2Manager.h in Headers */ = {isa = PBXBuildFile; fileRef = 6ACA8BD41B8E051B00BD3053 /* AFOAuth2Manager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		6ACA8BEB1B8E051B00BD3053 /* AFOAuth2Manager.m in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BD51B8E051B00BD3053 /* AFOAuth2Manager.m */; settings = {ASSET_TAGS = (); }; };
-		6ACA8BEC1B8E051B00BD3053 /* LICENSE in Resources */ = {isa = PBXBuildFile; fileRef = 6ACA8BD61B8E051B00BD3053 /* LICENSE */; settings = {ASSET_TAGS = (); }; };
-		6ACA8BED1B8E051B00BD3053 /* README.md in Sources */ = {isa = PBXBuildFile; fileRef = 6ACA8BD71B8E051B00BD3053 /* README.md */; settings = {ASSET_TAGS = (); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		6A1EFDFC1B8E249300D08E67 /* RBOAuth2Manager-OSX.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RBOAuth2Manager-OSX.h"; sourceTree = "<group>"; };
+		6A1EFDFE1B8E249300D08E67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6A1EFE071B8E24D700D08E67 /* RBOAuth2Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RBOAuth2Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6A1EFE091B8E24D700D08E67 /* RBOAuth2Manager-OSX2.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "RBOAuth2Manager-OSX2.h"; sourceTree = "<group>"; };
+		6A1EFE0B1B8E24D700D08E67 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		6ACA8BB31B8E04F900BD3053 /* RBOAuth2Manager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = RBOAuth2Manager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		6ACA8BB61B8E04F900BD3053 /* RBOAuth2Manager.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RBOAuth2Manager.h; sourceTree = "<group>"; };
 		6ACA8BB81B8E04F900BD3053 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -50,17 +71,20 @@
 		6ACA8BCB1B8E051B00BD3053 /* AFURLRequestSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLRequestSerialization.m; sourceTree = "<group>"; };
 		6ACA8BCC1B8E051B00BD3053 /* AFURLResponseSerialization.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLResponseSerialization.h; sourceTree = "<group>"; };
 		6ACA8BCD1B8E051B00BD3053 /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
-		6ACA8BCE1B8E051B00BD3053 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		6ACA8BCF1B8E051B00BD3053 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		6ACA8BD21B8E051B00BD3053 /* AFHTTPRequestSerializer+OAuth2.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "AFHTTPRequestSerializer+OAuth2.h"; sourceTree = "<group>"; };
 		6ACA8BD31B8E051B00BD3053 /* AFHTTPRequestSerializer+OAuth2.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "AFHTTPRequestSerializer+OAuth2.m"; sourceTree = "<group>"; };
 		6ACA8BD41B8E051B00BD3053 /* AFOAuth2Manager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFOAuth2Manager.h; sourceTree = "<group>"; };
 		6ACA8BD51B8E051B00BD3053 /* AFOAuth2Manager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFOAuth2Manager.m; sourceTree = "<group>"; };
-		6ACA8BD61B8E051B00BD3053 /* LICENSE */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = LICENSE; sourceTree = "<group>"; };
-		6ACA8BD71B8E051B00BD3053 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		6A1EFE031B8E24D700D08E67 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6ACA8BAF1B8E04F900BD3053 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -71,10 +95,30 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		6A1EFDFB1B8E249300D08E67 /* RBOAuth2Manager-OSX */ = {
+			isa = PBXGroup;
+			children = (
+				6A1EFDFC1B8E249300D08E67 /* RBOAuth2Manager-OSX.h */,
+				6A1EFDFE1B8E249300D08E67 /* Info.plist */,
+			);
+			path = "RBOAuth2Manager-OSX";
+			sourceTree = "<group>";
+		};
+		6A1EFE081B8E24D700D08E67 /* RBOAuth2Manager-OSX2 */ = {
+			isa = PBXGroup;
+			children = (
+				6A1EFE091B8E24D700D08E67 /* RBOAuth2Manager-OSX2.h */,
+				6A1EFE0B1B8E24D700D08E67 /* Info.plist */,
+			);
+			path = "RBOAuth2Manager-OSX2";
+			sourceTree = "<group>";
+		};
 		6ACA8BA91B8E04F900BD3053 = {
 			isa = PBXGroup;
 			children = (
 				6ACA8BB51B8E04F900BD3053 /* RBOAuth2Manager */,
+				6A1EFDFB1B8E249300D08E67 /* RBOAuth2Manager-OSX */,
+				6A1EFE081B8E24D700D08E67 /* RBOAuth2Manager-OSX2 */,
 				6ACA8BB41B8E04F900BD3053 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,6 +127,7 @@
 			isa = PBXGroup;
 			children = (
 				6ACA8BB31B8E04F900BD3053 /* RBOAuth2Manager.framework */,
+				6A1EFE071B8E24D700D08E67 /* RBOAuth2Manager.framework */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -102,8 +147,6 @@
 			isa = PBXGroup;
 			children = (
 				6ACA8BBF1B8E051B00BD3053 /* AFNetworking */,
-				6ACA8BCE1B8E051B00BD3053 /* LICENSE */,
-				6ACA8BCF1B8E051B00BD3053 /* README.md */,
 			);
 			path = AFNetworking;
 			sourceTree = "<group>";
@@ -133,8 +176,6 @@
 			isa = PBXGroup;
 			children = (
 				6ACA8BD11B8E051B00BD3053 /* AFOAuth2Manager */,
-				6ACA8BD61B8E051B00BD3053 /* LICENSE */,
-				6ACA8BD71B8E051B00BD3053 /* README.md */,
 			);
 			path = AFOAuth2Manager;
 			sourceTree = "<group>";
@@ -153,6 +194,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
+		6A1EFE041B8E24D700D08E67 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1EFE1D1B8E254000D08E67 /* AFURLRequestSerialization.h in Headers */,
+				6A1EFE0F1B8E253D00D08E67 /* AFHTTPRequestSerializer+OAuth2.h in Headers */,
+				6A1EFE111B8E253D00D08E67 /* AFOAuth2Manager.h in Headers */,
+				6A1EFE151B8E254000D08E67 /* AFHTTPRequestOperationManager.h in Headers */,
+				6A1EFE211B8E254500D08E67 /* RBOAuth2Manager.h in Headers */,
+				6A1EFE1B1B8E254000D08E67 /* AFURLConnectionOperation.h in Headers */,
+				6A1EFE171B8E254000D08E67 /* AFNetworkReachabilityManager.h in Headers */,
+				6A1EFE191B8E254000D08E67 /* AFSecurityPolicy.h in Headers */,
+				6A1EFE0A1B8E24D700D08E67 /* RBOAuth2Manager-OSX2.h in Headers */,
+				6A1EFE131B8E254000D08E67 /* AFHTTPRequestOperation.h in Headers */,
+				6A1EFE1F1B8E254000D08E67 /* AFURLResponseSerialization.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6ACA8BB01B8E04F900BD3053 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
@@ -173,9 +232,27 @@
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		6ACA8BB21B8E04F900BD3053 /* RBOAuth2Manager */ = {
+		6A1EFE061B8E24D700D08E67 /* RBOAuth2Manager OSX */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 6ACA8BBB1B8E04F900BD3053 /* Build configuration list for PBXNativeTarget "RBOAuth2Manager" */;
+			buildConfigurationList = 6A1EFE0C1B8E24D700D08E67 /* Build configuration list for PBXNativeTarget "RBOAuth2Manager OSX" */;
+			buildPhases = (
+				6A1EFE021B8E24D700D08E67 /* Sources */,
+				6A1EFE031B8E24D700D08E67 /* Frameworks */,
+				6A1EFE041B8E24D700D08E67 /* Headers */,
+				6A1EFE051B8E24D700D08E67 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "RBOAuth2Manager OSX";
+			productName = "RBOAuth2Manager-OSX2";
+			productReference = 6A1EFE071B8E24D700D08E67 /* RBOAuth2Manager.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		6ACA8BB21B8E04F900BD3053 /* RBOAuth2Manager iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ACA8BBB1B8E04F900BD3053 /* Build configuration list for PBXNativeTarget "RBOAuth2Manager iOS" */;
 			buildPhases = (
 				6ACA8BAE1B8E04F900BD3053 /* Sources */,
 				6ACA8BAF1B8E04F900BD3053 /* Frameworks */,
@@ -186,7 +263,7 @@
 			);
 			dependencies = (
 			);
-			name = RBOAuth2Manager;
+			name = "RBOAuth2Manager iOS";
 			productName = RBOAuth2Manager;
 			productReference = 6ACA8BB31B8E04F900BD3053 /* RBOAuth2Manager.framework */;
 			productType = "com.apple.product-type.framework";
@@ -200,6 +277,9 @@
 				LastUpgradeCheck = 0700;
 				ORGANIZATIONNAME = Redbooth;
 				TargetAttributes = {
+					6A1EFE061B8E24D700D08E67 = {
+						CreatedOnToolsVersion = 7.0;
+					};
 					6ACA8BB21B8E04F900BD3053 = {
 						CreatedOnToolsVersion = 7.0;
 					};
@@ -217,24 +297,46 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				6ACA8BB21B8E04F900BD3053 /* RBOAuth2Manager */,
+				6ACA8BB21B8E04F900BD3053 /* RBOAuth2Manager iOS */,
+				6A1EFE061B8E24D700D08E67 /* RBOAuth2Manager OSX */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		6A1EFE051B8E24D700D08E67 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6ACA8BB11B8E04F900BD3053 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				6ACA8BEC1B8E051B00BD3053 /* LICENSE in Resources */,
-				6ACA8BE61B8E051B00BD3053 /* LICENSE in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		6A1EFE021B8E24D700D08E67 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A1EFE1C1B8E254000D08E67 /* AFURLConnectionOperation.m in Sources */,
+				6A1EFE201B8E254000D08E67 /* AFURLResponseSerialization.m in Sources */,
+				6A1EFE141B8E254000D08E67 /* AFHTTPRequestOperation.m in Sources */,
+				6A1EFE101B8E253D00D08E67 /* AFHTTPRequestSerializer+OAuth2.m in Sources */,
+				6A1EFE181B8E254000D08E67 /* AFNetworkReachabilityManager.m in Sources */,
+				6A1EFE161B8E254000D08E67 /* AFHTTPRequestOperationManager.m in Sources */,
+				6A1EFE1A1B8E254000D08E67 /* AFSecurityPolicy.m in Sources */,
+				6A1EFE121B8E253D00D08E67 /* AFOAuth2Manager.m in Sources */,
+				6A1EFE1E1B8E254000D08E67 /* AFURLRequestSerialization.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		6ACA8BAE1B8E04F900BD3053 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -246,9 +348,7 @@
 				6ACA8BE31B8E051B00BD3053 /* AFURLRequestSerialization.m in Sources */,
 				6ACA8BD91B8E051B00BD3053 /* AFHTTPRequestOperation.m in Sources */,
 				6ACA8BE51B8E051B00BD3053 /* AFURLResponseSerialization.m in Sources */,
-				6ACA8BE71B8E051B00BD3053 /* README.md in Sources */,
 				6ACA8BE11B8E051B00BD3053 /* AFURLConnectionOperation.m in Sources */,
-				6ACA8BED1B8E051B00BD3053 /* README.md in Sources */,
 				6ACA8BE91B8E051B00BD3053 /* AFHTTPRequestSerializer+OAuth2.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -256,6 +356,46 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin XCBuildConfiguration section */
+		6A1EFE0D1B8E24D700D08E67 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "RBOAuth2Manager-OSX2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redbooth.RBOAuth2Manager-OSX2";
+				PRODUCT_NAME = RBOAuth2Manager;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		6A1EFE0E1B8E24D700D08E67 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				COMBINE_HIDPI_IMAGES = YES;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				FRAMEWORK_VERSION = A;
+				INFOPLIST_FILE = "RBOAuth2Manager-OSX2/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				PRODUCT_BUNDLE_IDENTIFIER = "com.redbooth.RBOAuth2Manager-OSX2";
+				PRODUCT_NAME = RBOAuth2Manager;
+				SDKROOT = macosx;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
 		6ACA8BB91B8E04F900BD3053 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -293,7 +433,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -334,7 +475,8 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -347,38 +489,53 @@
 		6ACA8BBC1B8E04F900BD3053 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RBOAuth2Manager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				ONLY_ACTIVE_ARCH = YES;
 				PRODUCT_BUNDLE_IDENTIFIER = com.redbooth.RBOAuth2Manager;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RBOAuth2Manager;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Debug;
 		};
 		6ACA8BBD1B8E04F900BD3053 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD)";
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
 				INFOPLIST_FILE = RBOAuth2Manager/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.redbooth.RBOAuth2Manager;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = RBOAuth2Manager;
 				SKIP_INSTALL = YES;
+				VALID_ARCHS = "arm64 armv7 armv7s";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		6A1EFE0C1B8E24D700D08E67 /* Build configuration list for PBXNativeTarget "RBOAuth2Manager OSX" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				6A1EFE0D1B8E24D700D08E67 /* Debug */,
+				6A1EFE0E1B8E24D700D08E67 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
 		6ACA8BAD1B8E04F900BD3053 /* Build configuration list for PBXProject "RBOAuth2Manager" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
@@ -388,13 +545,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		6ACA8BBB1B8E04F900BD3053 /* Build configuration list for PBXNativeTarget "RBOAuth2Manager" */ = {
+		6ACA8BBB1B8E04F900BD3053 /* Build configuration list for PBXNativeTarget "RBOAuth2Manager iOS" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				6ACA8BBC1B8E04F900BD3053 /* Debug */,
 				6ACA8BBD1B8E04F900BD3053 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
