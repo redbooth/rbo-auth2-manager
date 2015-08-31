@@ -15,7 +15,7 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "6A1EFE061B8E24D700D08E67"
-               BuildableName = "RBOAuth2Manager OSX.framework"
+               BuildableName = "RBOAuth2Manager.framework"
                BlueprintName = "RBOAuth2Manager OSX"
                ReferencedContainer = "container:RBOAuth2Manager.xcodeproj">
             </BuildableReference>
@@ -46,7 +46,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6A1EFE061B8E24D700D08E67"
-            BuildableName = "RBOAuth2Manager OSX.framework"
+            BuildableName = "RBOAuth2Manager.framework"
             BlueprintName = "RBOAuth2Manager OSX"
             ReferencedContainer = "container:RBOAuth2Manager.xcodeproj">
          </BuildableReference>
@@ -64,7 +64,7 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "6A1EFE061B8E24D700D08E67"
-            BuildableName = "RBOAuth2Manager OSX.framework"
+            BuildableName = "RBOAuth2Manager.framework"
             BlueprintName = "RBOAuth2Manager OSX"
             ReferencedContainer = "container:RBOAuth2Manager.xcodeproj">
          </BuildableReference>

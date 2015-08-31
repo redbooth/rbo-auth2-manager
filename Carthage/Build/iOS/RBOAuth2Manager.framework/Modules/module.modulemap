@@ -1,6 +1,0 @@
-framework module RBOAuth2Manager {
-  umbrella header "RBOAuth2Manager.h"
-
-  export *
-  module * { export * }
-}
